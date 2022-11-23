@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Ngclopedia.Application</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.2"/>
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Localization" Version="6.0.10"/>
+        <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.20"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Ngclopedia.Domain\Ngclopedia.Domain.csproj"/>
+    </ItemGroup>
+</Project>

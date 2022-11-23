@@ -1,0 +1,17 @@
+{
+  "SwaggerSettings": {
+    "Enable": true,
+    "Title": "Ngclopedia Web Application",
+    "Version": "v1",
+    "Description": "A community based forum built with asp.net and angular.",
+    "ContactName": "Rexx07",
+    "ContactEmail": "rexx07@ngclopedia.com",
+    "ContactUrl": "https://linkedin.com/in/iammukeshm",
+    "License": true,
+    "LicenseName": "MIT License",
+    "LicenseUrl": "https://github.com/fullstackhero/dotnet-webapi-boilerplate/blob/main/LICENSE"
+  },
+  "openapi": "",
+  "components": {},
+  "info": {}
+}
